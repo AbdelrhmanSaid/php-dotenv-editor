@@ -1,9 +1,9 @@
 <?php
 
-namespace Redot\DotenvEditor;
+namespace AbdelrhmanSaid\DotenvEditor;
 
 use Dotenv\Dotenv;
-use Redot\DotenvEditor\Exceptions\FileNotFoundException;
+use AbdelrhmanSaid\DotenvEditor\Exceptions\FileNotFoundException;
 
 class DotenvEditor
 {

@@ -1,15 +1,15 @@
 {
-    "name": "redot/dotenv-editor",
+    "name": "abdelrhmansaid/dotenv-editor",
     "description": "Loads and edits .env files",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/redot-src/php-dotenv-editor/issues",
-        "source": "https://github.com/redot-src/php-dotenv-editor"
+        "issues": "https://github.com/AbdelrhmanSaid/php-dotenv-editor/issues",
+        "source": "https://github.com/AbdelrhmanSaid/php-dotenv-editor"
     },
     "keywords": ["php", "dotenv", "env", "editor"],
     "autoload": {
         "psr-4": {
-            "Redot\\DotenvEditor\\": "src/"
+            "AbdelrhmanSaid\\DotenvEditor\\": "src/"
         }
     },
     "require": {

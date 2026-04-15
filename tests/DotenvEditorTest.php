@@ -1,7 +1,7 @@
 <?php
 
-use Redot\DotenvEditor\DotenvEditor;
-use Redot\DotenvEditor\Exceptions\FileNotFoundException;
+use AbdelrhmanSaid\DotenvEditor\DotenvEditor;
+use AbdelrhmanSaid\DotenvEditor\Exceptions\FileNotFoundException;
 
 beforeEach(function () {
     if (file_exists(__DIR__ . '/.env')) {

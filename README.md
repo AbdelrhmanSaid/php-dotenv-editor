@@ -1,13 +1,13 @@
 # PHP `.env` Editor
 
-`redot/dotenv-editor` is a PHP package that provides a simple and convenient way to read, modify, and save environment variables from a `.env` file. It utilizes the `Dotenv` package for parsing the environment file.
+`abdelrhmansaid/dotenv-editor` is a PHP package that provides a simple and convenient way to read, modify, and save environment variables from a `.env` file. It utilizes the `Dotenv` package for parsing the environment file.
 
 ## Installation
 
 You can install the package via Composer:
 
 ```bash
-composer require redot/dotenv-editor
+composer require abdelrhmansaid/dotenv-editor
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ composer require redot/dotenv-editor
 To use the `DotenvEditor` class, create an instance by providing the path to the `.env` file:
 
 ```php
-use Redot\DotenvEditor\DotenvEditor;
+use AbdelrhmanSaid\DotenvEditor\DotenvEditor;
 
 $editor = new DotenvEditor('/path/to/.env');
 ```
@@ -77,8 +77,8 @@ This will create a backup file (`.env.backup`) before saving any changes. The ba
 Here's an example of how you can use the `DotenvEditor` class:
 
 ```php
-use Redot\DotenvEditor\DotenvEditor;
-use Redot\DotenvEditor\Exceptions\FileNotFoundException;
+use AbdelrhmanSaid\DotenvEditor\DotenvEditor;
+use AbdelrhmanSaid\DotenvEditor\Exceptions\FileNotFoundException;
 
 try {
     $editor = new DotenvEditor('/path/to/.env');

@@ -1,6 +1,6 @@
 <?php
 
-namespace Redot\DotenvEditor\Exceptions;
+namespace AbdelrhmanSaid\DotenvEditor\Exceptions;
 
 use Exception;
 
